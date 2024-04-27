@@ -2,8 +2,8 @@
   hosts: localhost
   vars:
     Course: "Terraform"
-    Trainer: "Trainer"
-    Duration: "Duration"
+    Trainer: "Sivakumar"
+    Duration: "15hrs"
   tasks:
   - name: print override information
     vars: # Task level variables
