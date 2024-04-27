@@ -1,5 +1,5 @@
 - name: install and run nginx
-  hosts: web
+  hosts: 172.31.21.44
   become: yes #equal to -b in adhoc comments, getting root access.
   tasks:
   - name: install nginx
