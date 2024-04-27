@@ -1,0 +1,18 @@
+- name: data types
+  hosts: localhost
+  vars:
+    Course: "Devops with AWS" #sting
+  Tools: #list
+  - Linux
+  - Shell
+  - Ansible
+  Experience: #Map or directory
+    Devops: 3 #Number
+    AWS: 2
+    Terraform: 1  
+  Realproject: true #boolean
+  tasks:
+    -name: print variables
+     ansible.builin.debug:
+      msg: "Course: {{Course}}, Tools covered: {{Tools}}, Experience is: {{Experience}}, Realproject is: {{Realproject}}" 
+
