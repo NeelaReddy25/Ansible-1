@@ -6,5 +6,5 @@
     Duration: "120hrs"
   tasks:
   - name: print information
-    ansible.biltin.debug:
+    ansible.builtin.debug:
       msg: "Hi, we are learning {{Course}} from trainer {{Trainer}}, Duration is {{Duration}}."
